@@ -33,17 +33,17 @@
         "repositoryURL": "https://github.com/tid-kijyun/Kanna.git",
         "state": {
           "branch": null,
-          "revision": "609367a2cd84827a33383cf7923cb4fe8f69ee0a",
-          "version": "5.2.2"
+          "revision": "f9e4922223dd0d3dfbf02ca70812cf5531fc0593",
+          "version": "5.2.7"
         }
       },
       {
         "package": "OAuthSwift",
         "repositoryURL": "https://github.com/OAuthSwift/OAuthSwift",
         "state": {
-          "branch": null,
-          "revision": "fde77955e6983fbfaabd491709d52b8a82fda4d0",
-          "version": "2.1.2"
+          "branch": "master",
+          "revision": "73f97878d988e33cc0d5482c18db6264c37ffbcd",
+          "version": null
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/httpswift/swifter.git",
         "state": {
           "branch": null,
-          "revision": "8b5afb48ae64d4f729f0489ddcfe09c62b9c3687",
-          "version": "1.4.7"
+          "revision": "9483a5d459b45c3ffd059f7b55f9638e268632fd",
+          "version": "1.5.0"
         }
       }
     ]
