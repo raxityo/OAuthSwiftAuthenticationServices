@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-  name: "OAuthSwiftAuthenticationServices",
-  products: [
-    .library(
-      name: "OAuthSwiftAuthenticationServices",
-      targets: ["OAuthSwiftAuthenticationServices"]
-    ),
-  ],
-  dependencies: [
-    .package(url: "https://github.com/OAuthSwift/OAuthSwift", .upToNextMajor(from: "2.1.2")),
-  ],
-  targets: [
-    .target(
-      name: "OAuthSwiftAuthenticationServices",
-      dependencies: ["OAuthSwift"]
-    ),
-  ]
+    name: "OAuthSwiftAuthenticationServices",
+    products: [
+        .library(
+            name: "OAuthSwiftAuthenticationServices",
+            targets: ["OAuthSwiftAuthenticationServices"]
+        ),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/OAuthSwift/OAuthSwift", .branch("master")),
+    ],
+    targets: [
+        .target(
+            name: "OAuthSwiftAuthenticationServices",
+            dependencies: ["OAuthSwift"]
+        ),
+    ]
 )
